@@ -1,17 +1,5 @@
-function meow (){
-    console.log("Meow!")
+function main (){
+    console.log("Main/Master")
 }
 
-function hopOnKeyboard (){
-    console.log("hopping on you keyboard!")
-}
-
-function scratch (){
-    console.log("scratch couch!")
-}
-
-function eatFish (){
-    console.log("eatting fish!")
-}
-
-meow()
+main()
