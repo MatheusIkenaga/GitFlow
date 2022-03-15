@@ -14,5 +14,8 @@ function beber (){
     console.log("Gato está bebendo")
 }
 
+function pular (){
+    console.log("Gato está pulando")
+}
 
 main()
