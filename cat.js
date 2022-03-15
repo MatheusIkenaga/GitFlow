@@ -1,5 +1,9 @@
 function main (){
-    console.log("Main/Master")
+    console.log("Gato Felix!")
+}
+
+function andar (){
+    console.log("Gato está andando")
 }
 
 function comer (){
