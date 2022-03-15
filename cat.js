@@ -1,5 +1,5 @@
 function main (){
-    console.log("Main/Master")
+    console.log("Gato Felix!")
 }
 
 function andar (){
