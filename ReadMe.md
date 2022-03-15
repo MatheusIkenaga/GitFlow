@@ -35,19 +35,19 @@ Aí sim as Branches com Hotfix podem ser removidas.
 
 *First of all*, aconselho baixarem a extenção “[*Git Branch Warnings*](https://marketplace.visualstudio.com/items?itemName=teledemic.branch-warnings)”, ela irá te avisar quando você estiver na branch “master”, “main”, etc. Para evitar que você faça publicações na branch errada
 
-![Untitled](Git%20Flow/images/Untitled.png)
+![Untitled](images/Untitled.png)
 
 (Você pode configurar para quais branches ela deve te avisar)
 
 Para facilitar a visualização (porém é opcional), você pode baixar a extensão “[Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)”, e ver um gráfico ilustrado sobre as ramificações do repositório Git
 
-![Untitled](Git%20Flow/images/Untitled%201.png)
+![Untitled](images/Untitled%201.png)
 
 Após feito o download e Instalação, vamos realizar a configuração do seu VS Code:
 
-![Untitled](Git%20Flow/images/Untitled%202.png)
+![Untitled](images/Untitled%202.png)
 
-![Untitled](Git%20Flow/images/Untitled%203.png)
+![Untitled](images/Untitled%203.png)
 
 Minha sugestão de configuração é essa aqui:
 
@@ -94,17 +94,17 @@ main()
 
 Você vai estar na branch develop e criar uma nova branch:
 
-![Untitled](Git%20Flow/images/Untitled%204.png)
+![Untitled](images/Untitled%204.png)
 
-![Untitled](Git%20Flow/images/Untitled%205.png)
+![Untitled](images/Untitled%205.png)
 
 Após apertar Enter, automaticamente nós vamos ser direcionados para a branch que criamos:
 
-![Untitled](Git%20Flow/images/Untitled%206.png)
+![Untitled](images/Untitled%206.png)
 
 Na aba do Git, publique a branch:
 
-![Untitled](Git%20Flow/images/Untitled%207.png)
+![Untitled](images/Untitled%207.png)
 
 Após implementar a nova funcionalidade:
 
@@ -132,25 +132,25 @@ Vamos commitar e fazer o Sync normalmente.
 
 Feito isso, você deve trocar de branch, para a branch develop (pois ela deve receber o novo método)
 
-![Untitled](Git%20Flow/images/Untitled%208.png)
+![Untitled](images/Untitled%208.png)
 
 E fazer o Merge para a branch develop
 
-![Untitled](Git%20Flow/images/Untitled%209.png)
+![Untitled](images/Untitled%209.png)
 
 Escolha de qual branch você está trazendo a feature:
 
-![Untitled](Git%20Flow/images/Untitled%2010.png)
+![Untitled](images/Untitled%2010.png)
 
 E em seguida é só sincronizar:
 
-![Untitled](Git%20Flow/images/Untitled%2011.png)
+![Untitled](images/Untitled%2011.png)
 
 Após isso, vamos deletar a branch LOCAL da feature:
 
-![Untitled](Git%20Flow/images/Untitled%2012.png)
+![Untitled](images/Untitled%2012.png)
 
-![Untitled](Git%20Flow/images/Untitled%2013.png)
+![Untitled](images/Untitled%2013.png)
 
 Para deletar a branch REMOTA, não encontrei uma forma de fazer isso via botão pelo VS Code, mas existe o comando via terminal
 
@@ -160,11 +160,11 @@ git push [nome-do-remote] :[nome-da-branch]
 
 Você pode descobrir o nome do seu remote, tentando excluir (mas NÃO EXCLUINDO no VS Code):
 
-![Untitled](Git%20Flow/images/Untitled%2014.png)
+![Untitled](images/Untitled%2014.png)
 
 No meu caso, é origin:
 
-![Untitled](Git%20Flow/images/Untitled%2015.png)
+![Untitled](images/Untitled%2015.png)
 
 Então o comando seria este:
 
@@ -174,6 +174,6 @@ git push origin :feature/fazer-gato-beber
 
 Feito pelo próprio terminal do VS Code:
 
-![Untitled](Git%20Flow/images/Untitled%2016.png)
+![Untitled](images/Untitled%2016.png)
 
 Os mesmos conceitos se aplicam para o HotFix, Release, etc
