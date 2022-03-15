@@ -5,3 +5,5 @@ function meow (){
 function hopOnKeyboard (){
     console.log("hopping on you keyboard!")
 }
+
+meow()
