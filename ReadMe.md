@@ -33,7 +33,7 @@ Aí sim as Branches com Hotfix podem ser removidas.
 
 ## Extensões e configurações:
 
-*First of all*, aconselho baixarem a extenção “[*Git Branch Warnings*](https://marketplace.visualstudio.com/items?itemName=teledemic.branch-warnings)”, ela irá te avisar quando você estiver na branch “master”, “main”, etc. Para evitar que você faça publicações na branch errada
+*First of all*, aconselho baixarem a extensão “[*Git Branch Warnings*](https://marketplace.visualstudio.com/items?itemName=teledemic.branch-warnings)”, ela irá te avisar quando você estiver na branch “master”, “main”, etc. Para evitar que você faça publicações na branch errada
 
 ![Untitled](images/Untitled.png)
 
