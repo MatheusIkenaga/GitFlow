@@ -10,4 +10,8 @@ function scratch (){
     console.log("scratch couch!")
 }
 
+function eatFish (){
+    console.log("eatting fish!")
+}
+
 meow()
