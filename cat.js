@@ -10,5 +10,9 @@ function comer (){
     console.log("Gato está comendo")
 }
 
+function beber (){
+    console.log("Gato está bebendo")
+}
+
 
 main()
