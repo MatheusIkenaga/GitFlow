@@ -18,4 +18,8 @@ function pular (){
     console.log("Gato está pulando")
 }
 
+function miar (){
+    console.log("Gato está miando")
+}
+
 main()
