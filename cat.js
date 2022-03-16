@@ -22,4 +22,8 @@ function miar (){
     console.log("Gato está miando")
 }
 
+function ronronar (){
+    console.log("Gato está ronronando")
+}
+
 main()
