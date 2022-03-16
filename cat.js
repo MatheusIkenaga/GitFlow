@@ -26,4 +26,8 @@ function ronronar (){
     console.log("Gato está ronronando")
 }
 
+function barulhoNoTelhado (){
+    console.log("Gato está fazendo barulho no telhado")
+}
+
 main()
