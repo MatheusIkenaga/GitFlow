@@ -18,4 +18,8 @@ function pular (){
     console.log("Gato está pulando")
 }
 
+function barulhoNoTelhado (){
+    console.log("Gato está fazendo barulho no telhado")
+}
+
 main()
